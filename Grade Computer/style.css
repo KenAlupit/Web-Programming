@@ -1,0 +1,12 @@
+.form-control input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.answer{
+    text-align: center;
+    font-size: 3vw;
+}
+#menu-button{
+    padding: 10vw 20vw;
+}
