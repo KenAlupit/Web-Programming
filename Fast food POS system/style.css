@@ -1,0 +1,189 @@
+.Menu_buttons{
+    float: left;
+    width: 75%;
+    height: 90%;
+
+}
+.Combo_meals{
+    float: left;
+    width: 75%;
+    height: 100%;
+    overflow: auto;
+}
+.Meal1{
+    float: left;
+    width: 75%;
+    height: 100%;
+    overflow: auto;
+}
+.Meal2{
+    float: left;
+    width: 75%;
+    height: 100%;
+    overflow: auto;
+}
+.order{
+    padding:.5%;
+    height: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    overflow: auto;
+    border-top: dashed;
+    border-bottom: dashed;
+}
+.receipt{
+    padding:.5%;
+    float: right;
+    margin-left:.2%;
+    margin-right:.2%;
+    background-color: white;
+    width: 23.5%;
+    height: 98%;
+    border-radius: 10px;
+}
+.menu-button{
+    width: 25%;
+    height: 25%;
+    border: 0px;
+    margin: 1px;
+    border-radius: 10px;
+}
+.menu-button:hover{
+    background-color: gray;
+}
+.menu-button:active{
+    background-color: darkgray;
+}
+.background{
+    background-color: #202124;
+}
+input[type="checkbox"] {
+    display: none;
+}
+.checkbox{
+    text-align: center;
+    margin: .5%;
+    width: 31.7%;
+    height: 31.7%;
+    font-size: 1vw;
+    border-radius: 10px;
+    color: white;
+    background-color: #2f2c40;
+    float: left;
+}
+input:checked + label{
+    background-color: #7a6b8f;
+}
+.search{
+    font-size: 3vw;
+    width: 100%;
+    margin: 0%;
+    border: none;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-color: #1f1829;
+}
+.submit{
+    background-color: green;
+    color: white;
+    margin-top: 1%;
+    height:10%;
+    font-size: 1.5vw;
+    margin-left: 1%;
+    border-radius: 10px;
+    width: 73%;
+    border: none;
+}
+.reset{
+    background-color: purple;
+    color: white;
+    margin-top: 1%;
+    height:10%;
+    font-size: 1.5vw;
+    border-radius: 10px;
+    width: 25%;
+    border: none;
+}
+.buttons{
+    border-radius: 10px;
+    overflow: auto;
+    margin-top: 1%;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 1vw;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+} 
+::-webkit-scrollbar-thumb {
+    background: #a4edec; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #3c657d; 
+}
+.action{
+    z-index: 2;
+}
+.quantity{
+    width: 10%;
+    font-size: 1vw;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    background: #1f1829; 
+}
+.totalprice{
+    font-size: 2vw;
+    margin: 0%;
+    text-align: right;
+}
+.itemquantity{
+    font-size: 1vw;
+    margin: 0%;
+    text-align: right;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.plusbutton{
+    background-color: green;
+    height: 1.4vw;
+    width: 1.4vw;
+    font-size: 1vw;
+    color: white;
+    border: none;
+}
+.minusbutton{
+    background-color: red;
+    height: 1.4vw;
+    width: 1.4vw;
+    font-size: 1vw;
+    color: white;
+    border: none;
+}
+.item{
+    font-size: 1vw;
+    margin: 0%;
+    padding: 0%;
+}
+.cash{
+    width: 50%;
+    font-size: 2vw;
+    margin: 0%;
+    text-align: right;
+}
+.title{
+    text-align: center;
+    margin: 1.5%;
+    padding: 1.5%;
+    font-size: 2vw;
+}
+.picture{
+    height: 60%;
+    margin-top: 5%;
+}
