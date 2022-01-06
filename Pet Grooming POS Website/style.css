@@ -1,0 +1,85 @@
+.profilepic{
+    margin-top: 1%;
+    height: 25vw;
+}
+.petimage{
+    display: none;
+}
+.profile{
+    height: 100%;
+    margin-bottom: 1.5%;
+}
+.picture{
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+}
+.owner{
+    margin-right: 1%;
+    width: 32%;
+    float: left;
+    font-size: 2vh;
+    height: 100%;
+    margin-bottom: 1%;
+}
+.pet{
+    width: 32%;
+    height: 100%;
+    font-size: 2vh;
+    float: left;
+}
+#wrapper{
+    margin-bottom: 1%;
+}
+.species{
+    float: left;
+}
+.gender{
+    float: left;
+}
+.addservice{
+    overflow-y: scroll;
+    height: 77%;
+    margin-bottom: 1%;
+}
+.chooseservice{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.service{
+    height: 80%;
+    margin-left: 1%;
+}
+.order{
+    float: left;
+    width: 80%;
+    height: 70%;
+}
+.hidden{
+    float: left;
+    height: 90%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.notes{
+    overflow-y: scroll;
+    height: 80%;
+}
+::-webkit-scrollbar {
+    width: 1vw;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+} 
+::-webkit-scrollbar-thumb {
+    background: #a4edec; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #3c657d; 
+}
+@font-face {
+    font-family: petfont;
+    src: url(mvboli.ttf);
+}
